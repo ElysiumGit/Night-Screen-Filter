@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingStart="16dp"
+	android:paddingEnd="16dp"
+	android:paddingTop="16dp"
+	android:paddingBottom="16dp"
+	android:gravity="center_vertical"
+	tools:background="?attr/card_background_color">
+
+	<ImageView
+		android:id="@+id/yellow_filter_icon"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:importantForAccessibility="no"
+		android:layout_marginEnd="8dp"
+		android:src="@drawable/ic_wb_incandescent_black_24dp"
+		android:tint="?attr/icon_tint"/>
+
+	<SeekBar
+		android:id="@+id/yellow_filter_seek_bar"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+        android:maxHeight="2dp"
+		android:layout_marginEnd="42dp"
+		android:paddingBottom="25dp"
+		android:paddingTop="25dp"
+		android:progress="0"
+		android:progressDrawable="@drawable/seek_progress"
+		android:thumb="@drawable/seek_thumb"
+		android:max="100"/>
+
+</LinearLayout>

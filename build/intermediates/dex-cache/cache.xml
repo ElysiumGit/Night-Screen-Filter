@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Abhi\Desktop\dimmer2\Blackbulb-master\app\build\intermediates\transforms\desugar\release\23.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="f78ada2ad4c60a81de7e6a321ea5920c8f94465f">
+        <dex dex="C:\Users\Abhi\Desktop\dimmer2\Blackbulb-master\app\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Abhi\Desktop\dimmer2\Blackbulb-master\app\build\intermediates\transforms\desugar\release\0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="a571d42dbabe4be912dbe9308dfbe0f7305c4c72">
+        <dex dex="C:\Users\Abhi\Desktop\dimmer2\Blackbulb-master\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+
+</items>
