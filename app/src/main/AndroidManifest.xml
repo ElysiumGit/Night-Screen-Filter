@@ -6,6 +6,9 @@
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 	<uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
     <uses-permission android:name="cyanogenmod.permission.PUBLISH_CUSTOM_TILE" />
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+
 
     <application
 	    android:allowBackup="true"
@@ -13,14 +16,14 @@
 	    android:name="protego.bluelight.screenfilter.BlackbulbApplication"
 	    android:icon="@mipmap/ic_launcher"
 	    android:roundIcon="@mipmap/ic_launcher_circle"
-	    android:label="@string/app_name"
+	    android:label="Night Screen"
 	    android:persistent="true"
 	    android:supportsRtl="false"
 	    android:theme="@style/AppTheme.Light"
 	    tools:ignore="GoogleAppIndexingWarning">
 		<meta-data
 			android:name="com.google.android.gms.ads.APPLICATION_ID"
-			android:value="ca-app-pub-6312416868748718~9449846359" />
+			android:value="test ad unit" />
 
         <activity
             android:name="protego.bluelight.screenfilter.ui.MainActivity"
@@ -60,7 +63,7 @@
 	    <service
 		    android:name="protego.bluelight.screenfilter.service.MaskTileService"
 		    android:icon="@drawable/ic_brightness_2_white_36dp"
-		    android:label="@string/app_name"
+		    android:label="Night Screen"
 		    android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
 		    <intent-filter>
 			    <action android:name="android.service.quicksettings.action.QS_TILE" />

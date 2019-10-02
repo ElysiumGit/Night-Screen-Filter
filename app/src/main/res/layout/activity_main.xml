@@ -134,7 +134,7 @@
 			android:foregroundGravity="center_horizontal"
 			android:visibility="gone"
 			ads:adSize="BANNER"
-			ads:adUnitId="ca-app-pub-6312416868748718/6248967949">
+			ads:adUnitId="test ad unit">
 		</com.google.android.gms.ads.AdView>-->
 	</LinearLayout>
 

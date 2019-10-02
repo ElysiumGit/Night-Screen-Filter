@@ -103,7 +103,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         mSettings = Settings.getInstance(this);
 
-        AppRate.with(this).setInstallDays(3).setLaunchTimes(10).setRemindInterval(7).monitor();
+        AppRate.with(this).setInstallDays(2).setLaunchTimes(3).setRemindInterval(7).monitor();
         AppRate.showRateDialogIfMeetsConditions(this);
 
 
