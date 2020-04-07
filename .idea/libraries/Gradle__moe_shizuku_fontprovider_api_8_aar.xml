@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: moe.shizuku.fontprovider:api:8@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28140824721e23a296340d5ac04299c9/api-8/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acbb995459cffd71ac013558fa6b12ed/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28140824721e23a296340d5ac04299c9/api-8/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28140824721e23a296340d5ac04299c9/api-8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acbb995459cffd71ac013558fa6b12ed/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acbb995459cffd71ac013558fa6b12ed/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/moe.shizuku.fontprovider/api/8/bfebf26d5e2fefd23d12dc56dc2cec05d3bb23b3/api-8-javadoc.jar!/" />
