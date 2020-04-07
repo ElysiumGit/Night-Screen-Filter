@@ -16,6 +16,27 @@
 -->
 <resources>
 
+    <integer-array name="star_colors_small">
+        <!-- This is how you can configure the ratio of star colors-->
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+    </integer-array>
+
+
+    <integer-array name="meteorites_colors">
+
+        <item>@color/lightblue</item>
+        <item>@color/lightblue</item>
+        <item>@color/lightblue</item>
+    </integer-array>
+
+    <color name="white">#ffffff</color>
+    <color name="lightblue">#85c6ff</color>
+
     <color name="mdtp_white">#20263c</color>
     <color name="mdtp_background_color">@color/mdtp_white</color>
     <color name="mdtp_circle_background">@color/mdtp_background_color</color>

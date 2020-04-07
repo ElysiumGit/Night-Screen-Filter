@@ -32,6 +32,7 @@ import com.github.zagum.expandicon.ExpandIconView;
 //import com.google.android.gms.ads.AdRequest;
 //import com.google.android.gms.ads.AdView;
 
+import angtrim.com.fivestarslibrary.FiveStarsDialog;
 import protego.bluelight.screenfilter.Constants;
 import protego.bluelight.screenfilter.IMaskServiceInterface;
 import protego.bluelight.screenfilter.R;
@@ -43,7 +44,6 @@ import protego.bluelight.screenfilter.util.AlarmUtil;
 import protego.bluelight.screenfilter.util.Settings;
 import protego.bluelight.screenfilter.util.Utility;
 import moe.feng.alipay.zerosdk.AlipayZeroSdk;
-import hotchemi.android.rate.AppRate;
 
 
 public class MainActivity extends Activity {
@@ -103,8 +103,14 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         mSettings = Settings.getInstance(this);
 
-        AppRate.with(this).setInstallDays(2).setLaunchTimes(3).setRemindInterval(7).monitor();
-        AppRate.showRateDialogIfMeetsConditions(this);
+        FiveStarsDialog fiveStarsDialog = new FiveStarsDialog(this,"contactmyriadstudios@gmail.com");
+        fiveStarsDialog.setRateText("Thank you for your time!")
+                .setTitle("Do you like my app? If so I'd love to know :) <3")
+                .setForceMode(false)
+                .setUpperBound(4) // Market opened if a rating >= 2 is selected
+                .setSupportEmail("contactmyriadstudios@gmail.com")
+                .showAfter(3);
+
 
 
         // Apply theme and transparent system ui
@@ -123,10 +129,10 @@ public class MainActivity extends Activity {
         //AdRequest adRequest = new AdRequest.Builder().build();
         //mAdView.loadAd(adRequest);
 
-        quicksand = Typeface.createFromAsset(getAssets(),"fonts/quicksand.otf");
+      //  quicksand = Typeface.createFromAsset(getAssets(),"fonts/quicksand.otf");
 
-        mAppName= findViewById(R.id.appname);
-        mAppName.setTypeface(quicksand);
+     //   mAppName= findViewById(R.id.appname);
+     //   mAppName.setTypeface(quicksand);
 
         // Set up rootView & aboutButton's click event
         findViewById(R.id.root_layout).setOnClickListener(v -> {
@@ -229,7 +235,6 @@ public class MainActivity extends Activity {
         mSchedulerRow.setVisibility(visibility);
         mDarkThemeRow.setVisibility(visibility);
         mYellowFilterRow.setVisibility(visibility);
-        mAdvancedModeRow.setVisibility(visibility);
     }
 
     private void initSchedulerRow() {
@@ -485,7 +490,7 @@ public class MainActivity extends Activity {
         setToggleIconState(isRunning = true);
 
         // For safe
-        if (mSettings.isFirstRun()) {
+    /*    if (mSettings.isFirstRun()) {
             if (mFirstRunDialog != null && mFirstRunDialog.isShowing()) {
                 return;
             }
@@ -514,7 +519,7 @@ public class MainActivity extends Activity {
                     mFirstRunDialog.dismiss();
                 }
             }, 5000);
-        }
+        } */
     }
 
     private void stopMaskService() {

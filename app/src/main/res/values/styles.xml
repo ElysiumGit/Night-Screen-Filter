@@ -9,7 +9,7 @@
 		<item name="android:windowAnimationStyle">@style/AppTheme.Animation.Activity</item>
 		<item name="card_background_color">#EEEEEE</item>
 		<item name="progress_bar_color">@color/teal_700</item>
-		<item name="icon_tint">@color/teal_500</item>
+		<item name="icon_tint">#114455</item>
 		<item name="overflow_tint">#6f000000</item>
 	</style>
 
@@ -20,9 +20,9 @@
 		<item name="android:colorBackgroundCacheHint">@null</item>
 		<item name="android:windowIsTranslucent">true</item>
 		<item name="android:windowAnimationStyle">@style/AppTheme.Animation.Activity</item>
-		<item name="card_background_color">#20263c</item>
+		<item name="card_background_color">#000000</item>
 		<item name="progress_bar_color">#eeeeee</item>
-		<item name="icon_tint">#cb89f3</item>
+		<item name="icon_tint">#338877</item>
 		<item name="overflow_tint">#afffffff</item>
 	</style>
 

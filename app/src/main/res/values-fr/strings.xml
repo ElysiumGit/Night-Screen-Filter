@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">Protego</string>
+    <string name="app_name">Night Mode</string>
 
     <!-- Button tip -->
     <string name="button_tip_text">Astuce: cliquez sur le bouton en haut à gauche pour activer Night Screen</string>

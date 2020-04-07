@@ -22,4 +22,38 @@
 
 	<color name="ripple_foreground_light">#6fffffff</color>
 
+	<color name="color1">#ae90a8</color>
+	<color name="color2">#885154</color>
+	<color name="color3">#e67976</color>
+	<color name="color4">#aca05f</color>
+
+	<!--green colors-->
+	<color name="color5">#114455</color>
+	<color name="color6">#116666</color>
+	<color name="color7">#338877</color>
+	<color name="color8">#55aa88</color>
+
+	<!--blue colors-->
+	<color name="color9">#00264d</color>
+	<color name="color10">#02386e</color>
+	<color name="color11">#00498d</color>
+	<color name="color12">#0052a2</color>
+
+	<array name="funny_colors">
+		<item>@color/color5</item>
+		<item>@color/color6</item>
+		<item>@color/color7</item>
+		<item>@color/color8</item>
+
+	</array>
+
+
+	<!--<array name="funny_colors">
+		<item>@color/color1</item>
+		<item>@color/color2</item>
+		<item>@color/color2</item>
+		<item>@color/color1</item>
+		<item>@color/color4</item>
+	</array>-->
+
 </resources>

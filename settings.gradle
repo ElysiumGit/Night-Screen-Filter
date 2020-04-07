@@ -1,2 +1,2 @@
 include ':app',
-		':libraries:timepicker'
+        ':libraries:timepicker', ':fivestarslibrary'

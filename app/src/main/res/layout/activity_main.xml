@@ -7,8 +7,8 @@
 	android:layout_height="match_parent"
 	android:id="@+id/root_layout"
 	android:focusable="false"
-	android:foreground="@android:color/transparent"
 	tools:context=".ui.MainActivity">
+
 
 	<LinearLayout
 		android:id="@+id/card_view"
@@ -23,6 +23,7 @@
 		android:animateLayoutChanges="true"
 		android:orientation="vertical">
 
+
 		<LinearLayout
 			android:id="@+id/title_bar"
 			android:layout_width="match_parent"
@@ -32,20 +33,23 @@
 			android:gravity="center_vertical"
 			android:orientation="horizontal">
 
-			<TextView
+
+
+			<com.mursaat.extendedtextview.AnimatedGradientTextView
 				android:id="@+id/appname"
 				android:layout_width="0dp"
 				android:layout_weight="1"
 				android:layout_height="wrap_content"
+				android:textSize="32dp"
+				android:textStyle="bold"
 				android:text="@string/app_name"
-				android:layout_gravity="center_horizontal"
-				android:textSize="22sp"
-				android:textColor="?attr/icon_tint"
-
-
-				android:fontFamily="@font/quicksand"
-				android:gravity="center_horizontal"
+				app:colors="@array/funny_colors"
+				app:simultaneousColors="4"
+				app:angle="45"
+				app:speed="2000"
+				app:maxFPS="60"
 				android:paddingBottom="5dp"
+				android:layout_marginStart="16dp"
 				/>
 
 			<ImageButton
@@ -68,12 +72,13 @@
 			android:layout_height="wrap_content"
 			android:gravity="center_vertical"
 			android:orientation="horizontal"
+
 			android:layout_marginBottom="4dp">
 
 			<ImageButton
 				android:id="@+id/toggle"
-				android:layout_width="24dp"
-				android:layout_height="24dp"
+				android:layout_width="32dp"
+				android:layout_height="32dp"
 				android:layout_marginStart="16dp"
 				android:layout_marginTop="16dp"
 				android:layout_marginBottom="16dp"
@@ -91,7 +96,7 @@
 				android:layout_weight="1"
 				android:layout_marginEnd="8dp"
 				android:progress="0"
-				android:maxHeight="2dip"
+				android:maxHeight="3dip"
 				android:paddingBottom="30dp"
 				android:paddingTop="30dp"
 				android:thumb="@drawable/seek_thumb"
@@ -145,7 +150,10 @@
 			android:padding="16dp"
 			android:background="?attr/icon_tint"
 			android:textColor="@android:color/white"
-			android:text="@string/button_tip_text"/>
+			android:text="@string/button_tip_text"
+			android:drawableStart="@drawable/ic_info_black_24dp"
+			android:drawableTint="@color/white"
+			/>
 
 		<LinearLayout
 			android:id="@+id/mini_scheduler_info"
@@ -205,9 +213,10 @@
 		<include
 			android:id="@+id/advanced_mode_row"
 			android:visibility="gone"
-			tools:visibility="visible"
+			tools:visibility="gone"
 			layout="@layout/include_advanced_mode_row"/>
 
 	</LinearLayout>
+
 
 </FrameLayout>

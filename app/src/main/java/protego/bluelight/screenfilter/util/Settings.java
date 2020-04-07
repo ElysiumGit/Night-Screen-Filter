@@ -77,7 +77,7 @@ public class Settings {
     }
 
     public boolean isDarkTheme() {
-	    return getBoolean(KEY_DARK_THEME, false);
+	    return getBoolean(KEY_DARK_THEME, true);
     }
 
     public boolean isAutoMode() {

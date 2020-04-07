@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Blackbulb-master.iml" filepath="$PROJECT_DIR$/Blackbulb-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraries/timepicker/timepicker.iml" filepath="$PROJECT_DIR$/libraries/timepicker/timepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Blackbulb-master.iml" filepath="$PROJECT_DIR$/Blackbulb-master.iml" group="Blackbulb-master" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Blackbulb-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/fivestarslibrary/fivestarslibrary.iml" filepath="$PROJECT_DIR$/fivestarslibrary/fivestarslibrary.iml" group="Blackbulb-master/fivestarslibrary" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" group="Blackbulb-master/libraries" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/timepicker/timepicker.iml" filepath="$PROJECT_DIR$/libraries/timepicker/timepicker.iml" group="Blackbulb-master/libraries/timepicker" />
     </modules>
   </component>
 </project>

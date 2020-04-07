@@ -3,12 +3,12 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="oval">
     <gradient
-        android:startColor="#e07ac3"
+        android:startColor="#338877"
 
-        android:endColor="#cb89f3"
+        android:endColor="#116666"
 
         android:angle="360"/>
     <size
-        android:width="10dp"
-        android:height="10dp" />
+        android:width="12dp"
+        android:height="12dp" />
 </shape>

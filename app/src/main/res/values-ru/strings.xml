@@ -2,7 +2,7 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	tools:ignore="MissingTranslation" >
 
-	<string name="app_name">Protego</string>
+	<string name="app_name">Night Mode</string>
 
 	<string name="shortcut_label_switch">Toggle</string>
 
